@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('https://img.freepik.com/free-vector/blue-gradient-blank-background-vector-business_53876-174933.jpg?t=st=1716211935~exp=1716215535~hmac=e1c2dd3566469bb89e014d150b964559c0684cc18600bd71dc5222a0d6aa561b&w=1380');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: 'Nunito', sans-serif;
+}
+
+.container {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #1291cc;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.16);
+    width: 460px;
+    height: 680px;
+    text-align: center;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+h1 {
+    margin: 12px 0;
+}
+
+.add-elements {
+    margin: 12px 0;
+}
+
+input {
+    padding: 6px 4px;
+    width: 70%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+button {
+    padding: 7px 14px;
+    background-color: #00b0ff;
+    border: none;
+    border-radius: 4px;
+    color: #fafafa;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #15c020;
+}
+
+.element-list {
+    height: 550px;
+    overflow-y: auto;
+}
+
+ul {
+    padding: 15px;
+}
+
+li {
+    list-style: none;
+    padding: 10px 5px;
+    background-color: #fff;
+    margin: 12px 0;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.16);
+    border-radius: 3px;
+    transition: background-color 0.4s;
+}
+
+li:hover {
+    background-color: #e0e0e0;
+}
+
+.checked {
+    text-decoration: line-through;
+    background-color: #e0e0e0;
+}
